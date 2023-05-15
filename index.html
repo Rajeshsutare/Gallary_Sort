@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Gallray Sort</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <div class=" ">
+                    <select name="" id="selectImg" class="form-control m-4">
+                        <option value="">Select Type</option>
+                        <option value="nature">Nature</option>
+                        <option value="space">Space</option>
+                        <option value="flower">Flower</option>
+                        <option value="ocean">Ocean</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all flower">
+                <image src="https://images.unsplash.com/photo-1457089328109-e5d9bd499191?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZsb3dlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" title="flower" class="img" ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all nature">
+                <image src="https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" title="nature" class="img"  ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all space">
+                <image src="https://media.istockphoto.com/id/1414593799/photo/nebulas-and-stars-cosmic-background-universe-with-galaxies-nebulae-and-stars.jpg?b=1&s=170667a&w=0&k=20&c=-y0lwZN1_EnY9kNQTyrP7lkGm_nRps1AiZgBkrUKjQ0=" title="space"  class="img" ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all flower">
+                <image src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZsb3dlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" title="flower" class="img"  ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all nature">
+                <image src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" title="nature"  class="img" ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all flower">
+                <image src="https://images.unsplash.com/photo-1508610048659-a06b669e3321?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZsb3dlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" title="flower"  class="img" ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all space">
+                <image src="https://images.unsplash.com/photo-1501862700950-18382cd41497?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHNwYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" title="space"  class="img" ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all nature">
+                <image src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" title="nature" class="img"  ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all ocean">
+                <image src="https://images.unsplash.com/photo-1485955891060-a3318433e95f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG9jZWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" title="ocean" class="img"  ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all space">
+                <image src="https://images.unsplash.com/photo-1484589065579-248aad0d8b13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNwYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" title="space"  class="img" ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all flower">
+                <image src="https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zmxvd2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" title="flower"  class="img" ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all nature">
+                <image src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" title="nature" class="img"  ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all ocean">
+                <image src="https://images.unsplash.com/photo-1559962219-f52ccd86944e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fG9jZWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" title="ocean" class="img"  ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all ocean">
+                <image src="https://images.unsplash.com/photo-1548032885-b5e38734688a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG9jZWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" title="ocean" class="img" ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all ocean">
+                <image src="https://images.unsplash.com/photo-1559825481-12a05cc00344?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8b2NlYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" title="ocean"  class="img" ></image>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 all space">
+                <image src="https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNwYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" title="space"  class="img" ></image>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
